@@ -1,0 +1,37 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+
+#contador::after {
+    content: "10"; 
+    animation: contagem 10s steps(10) forwards;
+}
+
+/* Definição dos números da contagem */
+@keyframes contagem {
+    0% { content: "10"; }
+    10% { content: "9"; }
+    20% { content: "8"; }
+    30% { content: "7"; }
+    40% { content: "6"; }
+    50% { content: "5"; }
+    60% { content: "4"; }
+    70% { content: "3"; }
+    80% { content: "2"; }
+    90% { content: "1"; }
+    100% { content: "Let's go"; } /* Fim da contagem */
+}
