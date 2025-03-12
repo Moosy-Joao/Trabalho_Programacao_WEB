@@ -9,15 +9,58 @@ AUTOR: Joao Pedro -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <div class="container">
+    <h1>Lista de Tarefas</h1>
+
+    <!-- Seção para adicionar tarefas -->
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Digite uma tarefa..." />
+      <button class="add-task">Adicionar Tarefa</button>
+    </div>
+
+    <!-- Tabela de Tarefas -->
+    <table class="task-table">
+      <thead>
+        <tr>
+          <th>Tarefa</th>
+          <th>Concluída</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><label for="task1">Estudar programação</label></td>
+          <td><input type="checkbox" id="task1"></td>
+          <td>
+            <button class="edit">Editar</button>
+            <button class="delete">Excluir</button>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="task2">Jogar</label></td>
+          <td><input type="checkbox" id="task2"></td>
+          <td>
+            <button class="edit">Editar</button>
+            <button class="delete">Excluir</button>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="task3">Trancar Facul</label></td>
+          <td><input type="checkbox" id="task3"></td>
+          <td>
+            <button class="edit">Editar</button>
+            <button class="delete">Excluir</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </body>
 </html>
