@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sitemap {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sitemap li {
+    text-indent: 20px;
+}
+
+.sitemap ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
