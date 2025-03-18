@@ -5,6 +5,8 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
+  color: rgb(0, 0, 0);
 } 
 
 .anonymous-pro-regular {
@@ -31,12 +33,6 @@
   font-style: italic;
 }
 
-h1 {
-    font-size: 60px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
 li {
   font-size: 20px;
   color: rgb(0, 0, 0);
@@ -50,6 +46,14 @@ ul {
 
 p {
   font-size: 20px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h4 {
+  font-size: 40px;
 }
 
 body {
