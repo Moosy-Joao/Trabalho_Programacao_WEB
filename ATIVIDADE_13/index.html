@@ -1,0 +1,58 @@
+<!-- 13 - Página de Promoções:
+● Tag HTML: <del>
+● Propriedade CSS: color
+Construa uma página de promoções com uma lista de ofertas especiais, cada uma
+contendo uma imagem, título, descrição e preço original/com desconto. Estilize o
+preço original aplicando a tag <del> e a propriedade color.
+AUTOR: Joao Pedro -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promoções Especiais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Ofertas Especiais</h1>
+
+    <!-- Promoção 1: Smartphone -->
+    <div class="promotion">
+      <img src="imagens/Iphone.png" alt="Smartphone">
+      <div class="promotion-info">
+        <h2>Smartphone</h2>
+        <p>Smartphone com a mais alta tecnologia e desempenho.</p>
+        <p class="price">
+          <del>R$ 2.500,00</del> <span class="discount-price">R$ 1.799,00</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Promoção 2: Notebook -->
+    <div class="promotion">
+      <img src="imagens/notebook.png" alt="Notebook">
+      <div class="promotion-info">
+        <h2>Notebook</h2>
+        <p>Notebook rápido e eficiente para o seu dia a dia.</p>
+        <p class="price">
+          <del>R$ 3.200,00</del> <span class="discount-price">R$ 2.499,00</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Promoção 3: Fone de Ouvido -->
+    <div class="promotion">
+      <img src="imagens/Fone.png" alt="Fone de Ouvido">
+      <div class="promotion-info">
+        <h2>Fone de Ouvido</h2>
+        <p>Fone de ouvido com cancelamento de ruído e som de alta qualidade.</p>
+        <p class="price">
+          <del>R$ 450,00</del> <span class="discount-price">R$ 299,00</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

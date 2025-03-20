@@ -1,0 +1,19 @@
+body {
+    background-image: url('Imagens/Folhas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Para garantir que a imagem de fundo cubra toda a altura da janela */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza o texto na tela */
+  }
+  
+  .texto {
+    color: white; /* Cor do texto */
+    font-size: 2rem; /* Tamanho do texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto*/
+    text-align: center; /* Alinhamento do texto ao centro */
+  }
+  
