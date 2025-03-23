@@ -1,7 +1,7 @@
 /* Fundo da página com a imagem fornecida */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('Imagens/Folhas.jpg');
+    background-image: url('Imagens/tecno.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body {
   
   /* Contêiner geral com largura ajustada */
   .container {
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    background-color: rgba(9, 175, 204, 0.8); /* Fundo branco semi-transparente */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -27,7 +27,7 @@ body {
   /* Título */
   h1 {
     text-align: center;
-    color: #333;
+    color: #000000;
     font-size: 2.5rem;
     margin-bottom: 30px;
   }
@@ -55,12 +55,12 @@ body {
   
   .promotion-info h2 {
     font-size: 1.8rem;
-    color: #333;
+    color: #000000;
     margin: 0;
   }
   
   .promotion-info p {
-    color: #666;
+    color: #fdfdfd;
     font-size: 1.1rem;
     line-height: 1.5;
   }
@@ -72,13 +72,13 @@ body {
   }
   
   .price del {
-    color: #b2b2b2;
+    color: #ff0000;
     font-size: 1.2rem;
     text-decoration: line-through;
   }
   
   .discount-price {
-    color: #e74c3c;  /* Usando uma cor mais quente para o preço com desconto */
+    color: #09ff00;  /* Usando uma cor mais quente para o preço com desconto */
     font-size: 1.6rem;
     font-weight: bold;
   }
