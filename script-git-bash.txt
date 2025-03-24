@@ -1,0 +1,6 @@
+git status
+git pull origin main (para atualizar antes de commitar)
+git add . (adicionar alterações)
+git commit -m "Mensagem de commit"
+git pull --rebase origin main (garante que seu repositório local esteja atualizado)
+git push origin main (envia suas alterações)
