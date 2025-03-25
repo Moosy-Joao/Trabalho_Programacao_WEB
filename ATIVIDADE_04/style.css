@@ -36,12 +36,13 @@
 li {
   font-size: 20px;
   color: rgb(0, 0, 0);
-  text-align: center;
 }
 
 ul {
-  text-align: center;
-  list-style: circle;
+  padding: 20px; 
+  background-color: #fff; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px; 
 }
 
 .data {
@@ -54,10 +55,12 @@ p {
 
 h1 {
   font-size: 60px;
+  color: #333; 
 }
 
 h4 {
   font-size: 30px;
+  color: #666;
 }
 
 .logo {
@@ -66,8 +69,31 @@ h4 {
   left: 10px;
   width: auto;
   height: 150px; 
-   }
+}
 
 body {
-  background-color: rgb(211, 241, 255);
+  background-color: #f4f4f4; 
+  font-family: Arial, sans-serif; 
+}
+
+a {
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px 15px; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  transition: background-color 0.3s; 
+}
+
+a:hover {
+  background-color: #0056b3;
+  text-decoration: none; 
+}
+
+.comment-icon {
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin-right: 10px; 
 }

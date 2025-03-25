@@ -1,25 +1,69 @@
+<!-- Crie uma página de login com campos para nome de usuário e senha utilizando a
+tag <input>. Estilize os campos de entrada aplicando a propriedade border.
+8 - Página de Produto:
+● Tag HTML: <button>
+● Propriedade CSS: box-sizing -->
+
 
 
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade 8</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Rubik+Microbe&display=swap');
-    </style>
+    <link rel="shortcut icon" href="imagens/transferir.png">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet"  href ="style.css">
+    <title>UniCreu</title>
 </head>
 <body>
-    <div class="produto" style="text-align: center;">
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Crie sua Conta</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Ou utilize seu mail para se registrar!</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <button>Registra-se!</button>
+            </form>
+        </div>
 
-        <img src="imagens/RelogioModerno.jpeg" width="400px" height="400px" alt="Produto">
-        <div class="descricao">
-            <h1> Relogio Oyster Perpetual Cosmograph Daytona </h1>
-            <p>Descrição do Produto: O relogio Moderno é um ótimo modelo para pessoas que buscam um relogio de alta qualidade e conforto.</p>
-            <button class="comprar">Adicionar ao carrinho</button>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Entrar</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Ou utilize a senha do seu mail para entrar!</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <a href="#">Esqueceu a senha?</a>
+                <button>Entrar!</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bem-vindo de volta!</h1>
+                    <p>Lorem Ipsum Lorem Impsum Lorem Ipsum</p>
+                    <button class="hiden" id="login">Entre</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Olá, amigo!</h1>
+                    <p>Lorem Ipsum Lorem Impsum Lorem Ipsum</p>
+                    <button class="hiden" id="register">Registra-se</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>
