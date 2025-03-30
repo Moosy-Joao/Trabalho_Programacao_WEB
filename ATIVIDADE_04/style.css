@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+.big-shoulders-example {
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(0, 0, 0);
+} 
+
+.anonymous-pro-regular {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anonymous-pro-bold {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.anonymous-pro-regular-italic {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.anonymous-pro-bold-italic {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+li {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+ul {
+  padding: 20px; 
+  background-color: #fff; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px; 
+}
+
+.data {
+  font-size: 16px; 
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #333; 
+}
+
+h4 {
+  font-size: 30px;
+  color: #666;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: auto;
+  height: 150px; 
+}
+
+body {
+  background-color: #f4f4f4; 
+  font-family: Arial, sans-serif; 
+}
+
+a {
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px 15px; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  transition: background-color 0.3s; 
+}
+
+a:hover {
+  background-color: #0056b3;
+  text-decoration: none; 
+}
+
+.comment-icon {
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin-right: 10px; 
+}

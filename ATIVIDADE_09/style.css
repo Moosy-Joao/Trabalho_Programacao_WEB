@@ -1,7 +1,7 @@
 /* Fundo da página com a imagem fornecida */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?cs=srgb&dl=pexels-sohi-807598.jpg&fm=jpg');
+    background-image: url('Imagens/tecno.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +14,9 @@ body {
   
   /* Estilos para o contêiner de tarefas */
   .container {
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    background: linear-gradient(
+      #f2f2f2, #333
+    );
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -48,18 +50,13 @@ body {
   
   button.add-task {
     padding: 10px 15px;
-    background-color: #4CAF50;
+    background-color: #333;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
   }
-  
-  button.add-task:hover {
-    background-color: #45a049;
-  }
-  
   /* Estilos da Tabela */
   table.task-table {
     width: 100%;

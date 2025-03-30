@@ -1,7 +1,7 @@
 /* Definindo o fundo da página com a imagem */
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?cs=srgb&dl=pexels-sohi-807598.jpg&fm=jpg');
+    font-family: cascadia code, sans-serif;
+    background-image: url('Imagens/tecno.jpg');
     background-size: cover; /* Faz a imagem cobrir toda a tela */
     background-position: center;
     background-repeat: no-repeat;
@@ -14,12 +14,14 @@ body {
   
   /* Contêiner do formulário */
   .container {
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência para destacar o formulário */
+    background: linear-gradient(
+      #f2f2f2, #333
+    );
     padding: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 500px; /* Limita a largura do form */
+    max-width: 500px;
   }
   
   /* Título do formulário */
@@ -32,38 +34,41 @@ body {
   /* Estilo dos labels */
   label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     font-weight: bold;
     color: #333;
   }
-  
+  * {
+    box-sizing: border-box;
+  }
+
   /* Estilo dos campos de entrada */
   input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
   }
   
   /* Ajustando a área de texto */
   textarea {
-    resize: vertical; /* Permite redimensionar verticalmente */
+    resize: vertical;
   }
   
   /* Estilo do botão */
   button {
     width: 100%;
     padding: 16px;
-    background-color: #4CAF50;
+    background-color: #333;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #333;
   }
