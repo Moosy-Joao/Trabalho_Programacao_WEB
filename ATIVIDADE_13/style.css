@@ -1,86 +1,120 @@
+.menu-lateral {
+  position: fixed; /* Fixa o menu no canto esquerdo da tela */
+  top: 0;
+  left: 0;
+  width: 200px; /* Largura do menu */
+  height: 100%; /* Ocupa toda a altura da tela */
+  background-color: rgba(0, 0, 0, 0.8); /* Fundo preto com transparência */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Sombra para o menu */
+}
+
+.menu-lateral ul {
+  list-style: none; /* Remove os marcadores da lista */
+  padding: 0;
+  margin: 0;
+}
+
+.menu-lateral ul li {
+  margin-bottom: 15px; /* Espaçamento entre os links */
+}
+
+.menu-lateral ul li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: white; /* Cor do texto dos links */
+  font-size: 1.2rem; /* Tamanho da fonte */
+  display: block; /* Faz o link ocupar toda a largura do menu */
+  padding: 10px;
+  border-radius: 4px; /* Bordas arredondadas nos links */
+  transition: background-color 0.3s; /* Animação suave ao passar o mouse */
+}
+
+.menu-lateral ul li a:hover {
+  background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+
 /* Fundo da página com a imagem fornecida */
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('Imagens/tecno.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  /* Contêiner geral com largura ajustada */
-  .container {
-    background-color: rgba(9, 175, 204, 0.8); /* Fundo branco semi-transparente */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 60%; /* Diminuindo a largura do formulário */
-    max-width: 900px; /* Largura máxima */
-    box-sizing: border-box;
-    overflow: auto;
-  }
-  
-  /* Título */
-  h1 {
-    background-color: #004b95;
-    text-align: center;
-    color: #000000;
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-  }
-  
-  /* Estilo das promoções */
-  .promotion {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 20px;
-  }
-  
-  .promotion img {
-    max-width: 250px; /* Diminuindo o tamanho das imagens */
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  .promotion-info {
-    flex: 1;
-    padding-left: 20px;
-  }
-  
-  .promotion-info h2 {
-    font-size: 1.8rem;
-    color: #000000;
-    margin: 0;
-  }
-  
-  .promotion-info p {
-    color: #fdfdfd;
-    font-size: 1.1rem;
-    line-height: 1.5;
-  }
-  
-  /* Estilo para os preços */
-  .price {
-    margin-top: 10px;
-    font-size: 1.4rem;
-  }
-  
-  .price del {
-    color: #ff0000;
-    font-size: 1.2rem;
-    text-decoration: line-through;
-  }
-  
-  .discount-price {
-    color: #09ff00;  /* Usando uma cor mais quente para o preço com desconto */
-    font-size: 1.6rem;
-    font-weight: bold;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-image: url('Imagens/tecno.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Contêiner geral com largura ajustada */
+.container {
+  background-color: rgba(9, 175, 204, 0.8); /* Fundo branco semi-transparente */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%; /* Diminuindo a largura do formulário */
+  max-width: 900px; /* Largura máxima */
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+/* Título */
+h1 {
+  background-color: #004b95;
+  text-align: center;
+  color: #000000;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* Estilo das promoções */
+.promocao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.promocao img {
+  max-width: 250px; /* Diminuindo o tamanho das imagens */
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-promocao {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.info-promocao h2 {
+  font-size: 1.8rem;
+  color: #000000;
+  margin: 0;
+}
+
+.info-promocao p {
+  color: #fdfdfd;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Estilo para os preços */
+.preco {
+  margin-top: 10px;
+  font-size: 1.4rem;
+}
+
+.preco del {
+  color: #ff0000;
+  font-size: 1.2rem;
+  text-decoration: line-through;
+}
+
+.preco-desconto {
+  color: #09ff00;  /* Usando uma cor mais quente para o preço com desconto */
+  font-size: 1.6rem;
+  font-weight: bold;
+}
