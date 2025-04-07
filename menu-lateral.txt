@@ -1,0 +1,59 @@
+NO html;
+Depois do body:
+
+<nav class="menu-lateral">
+  <ul>
+    <li><a href="../ATIVIDADE_01/index.html">Atividade 1</a></li>
+    <li><a href="../ATIVIDADE_02/index.html">Atividade 2</a></li>
+    <li><a href="../ATIVIDADE_03/index.html">Atividade 3</a></li>
+    <li><a href="../ATIVIDADE_04/index.html">Atividade 4</a></li>
+    <li><a href="../ATIVIDADE_05/index.html">Atividade 5</a></li>
+    <li><a href="../ATIVIDADE_06/index.html">Atividade 6</a></li>
+    <li><a href="../ATIVIDADE_07/index.html">Atividade 7</a></li>
+    <li><a href="../ATIVIDADE_08/index.html">Atividade 8</a></li>
+    <li><a href="../ATIVIDADE_09/index.html">Atividade 9</a></li>
+    <li><a href="../ATIVIDADE_10/index.html">Atividade 10</a></li>
+    <li><a href="../ATIVIDADE_11/index.html">Atividade 11</a></li>
+    <li><a href="../ATIVIDADE_12/index.html">Atividade 12</a></li>
+    <li><a href="../ATIVIDADE_13/index.html">Atividade 13</a></li>
+    <li><a href="../ATIVIDADE_14/index.html">Atividade 14</a></li>
+    <li><a href="../ATIVIDADE_15/index.html">Atividade 15</a></li>
+  </ul>
+</nav>
+
+NO css:
+/* Menu de navegação lateral */
+.menu-lateral {
+  position: fixed; /* Fixa o menu no canto esquerdo da tela */
+  top: 0;
+  left: 0;
+  width: 200px; /* Largura do menu */
+  height: 100%; /* Ocupa toda a altura da tela */
+  background-color: rgba(0, 0, 0, 0.8); /* Fundo preto com transparência */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Sombra para o menu */
+}
+
+.menu-lateral ul {
+  list-style: none; /* Remove os marcadores da lista */
+  padding: 0;
+  margin: 0;
+}
+
+.menu-lateral ul li {
+  margin-bottom: 15px; /* Espaçamento entre os links */
+}
+
+.menu-lateral ul li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: white; /* Cor do texto dos links */
+  font-size: 1.2rem; /* Tamanho da fonte */
+  display: block; /* Faz o link ocupar toda a largura do menu */
+  padding: 10px;
+  border-radius: 4px; /* Bordas arredondadas nos links */
+  transition: background-color 0.3s; /* Animação suave ao passar o mouse */
+}
+
+.menu-lateral ul li a:hover {
+  background-color: #555; /* Cor de fundo ao passar o mouse */
+}
