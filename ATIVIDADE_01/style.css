@@ -1,54 +1,20 @@
 body {
-    background-image: url('Imagens/tecno.jpg');
+    background-image: url('Imagens/pexels-maumascaro-376533.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; /* Para garantir que a imagem de fundo cubra toda a altura da janela */
+    height: 100vh; 
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center; /* Centraliza o texto na tela */
+    align-items: center; 
   }
-  /* Menu de navegação lateral */
-.menu-lateral {
-  position: fixed; /* Fixa o menu no canto esquerdo da tela */
-  top: 0;
-  left: 0;
-  width: 200px; /* Largura do menu */
-  height: 100%; /* Ocupa toda a altura da tela */
-  background-color: rgba(0, 0, 0, 0.8); /* Fundo preto com transparência */
-  padding: 20px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Sombra para o menu */
-}
 
-.menu-lateral ul {
-  list-style: none; /* Remove os marcadores da lista */
-  padding: 0;
-  margin: 0;
-}
-
-.menu-lateral ul li {
-  margin-bottom: 15px; /* Espaçamento entre os links */
-}
-
-.menu-lateral ul li a {
-  text-decoration: none; /* Remove o sublinhado dos links */
-  color: white; /* Cor do texto dos links */
-  font-size: 1.2rem; /* Tamanho da fonte */
-  display: block; /* Faz o link ocupar toda a largura do menu */
-  padding: 10px;
-  border-radius: 4px; /* Bordas arredondadas nos links */
-  transition: background-color 0.3s; /* Animação suave ao passar o mouse */
-}
-
-.menu-lateral ul li a:hover {
-  background-color: #555; /* Cor de fundo ao passar o mouse */
-}
   .texto {
     font-family: cascadia code;
-    color: white; /* Cor do texto */
-    font-size: 2rem; /* Tamanho do texto */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto*/
-    text-align: center; /* Alinhamento do texto ao centro */
+    color: rgb(255, 255, 255);
+    font-size: 2rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-align: center; 
   }
   
