@@ -1,3 +1,36 @@
-.Questoes summary {
-    text-shadow: 10px;   
+
+body {
+    display: flex;
+    justify-content: center; /* não ta funfanfo */
+    align-items: center;  /* não ta funfanfo */
+    background-color: #f0f0f0;
+}
+
+
+section {
+    width: 50%; 
+    text-align: center;
+}
+
+details {
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+summary {
+    font-weight: bold;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+details[open] {
+    background-color: #f9f9f9;
+    border-color: #007BFF;
+}
+
+details[open] summary {
+    color: #007BFF;
 }
