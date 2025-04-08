@@ -1,70 +1,29 @@
-<!-- Crie uma página de login com campos para nome de usuário e senha utilizando a
-tag <input>. Estilize os campos de entrada aplicando a propriedade border.
-8 - Página de Produto:
+<!-- 8 - Página de Produto:
 ● Tag HTML: <button>
-● Propriedade CSS: box-sizing -->
-
-
+● Propriedade CSS: box-sizing
+Desenvolva uma página de produto com uma imagem do produto, título, descrição,
+preço e um botão de compra utilizando a tag <button>. Estilize o botão aplicando a
+propriedade box-sizing. -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/transferir.png">
-    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet"  href ="style.css">
-    <title>UniCreu</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Iphone paraguai</title>
 </head>
 <body>
-    <div class="container" id="container">
-        <div class="form-container sign-up">
-            <form>
-                <h1>Crie sua Conta</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-                <span>Ou utilize seu mail para se registrar!</span>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Senha">
-                <button>Registra-se!</button>
-            </form>
-        </div>
+    <div class="product-container">
+        <img src="imagens/e40bd1b1200dd4553d09b01117a3ddf6.jpg" alt="Produto Premium" class="product-image">
+        <h1 class="product-title">iPhone 16</h1>
+        <p class="product-description">
+            iPhone 16 com tela Super Retina XDR de 6.1", câmera dupla de 12MP 
+            e chip A16 Bionic para desempenho excepcional.
+        </p>
 
-        <div class="form-container sign-in">
-            <form>
-                <h1>Entrar</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-                <span>Ou utilize a senha do seu mail para entrar!</span>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Senha">
-                <a href="#">Esqueceu a senha?</a>
-                <button>Entrar!</button>
-            </form>
-        </div>
-        <div class="toggle-container">
-            <div class="toggle">
-                <div class="toggle-panel toggle-left">
-                    <h1>Bem-vindo de volta!</h1>
-                    <p>Lorem Ipsum Lorem Impsum Lorem Ipsum</p>
-                    <button class="hiden" id="login">Entre</button>
-                </div>
-                <div class="toggle-panel toggle-right">
-                    <h1>Olá, amigo!</h1>
-                    <p>Lorem Ipsum Lorem Impsum Lorem Ipsum</p>
-                    <button class="hiden" id="register">Registra-se</button>
-                </div>
-            </div>
-        </div>
+        <p class="product-price">R$ 7.299,90</p>
+        <button class="buy-button">Comprar Agora</button>
     </div>
 </body>
 </html>
