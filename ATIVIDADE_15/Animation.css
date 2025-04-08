@@ -1,11 +1,13 @@
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black;
-    color: white;
+    background-color: black; /* Cor de fundo */
+    background-image: url('imagem/fundo.jpeg'); /* Caminho para a imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    color: rgb(255, 0, 0);
     font-family: Arial, sans-serif;
 }
 
@@ -33,5 +35,5 @@ body {
     70% { content: "3"; }
     80% { content: "2"; }
     90% { content: "1"; }
-    100% { content: "Let's go"; } /* Fim da contagem */
+    100% { content: "Feliz ano novo"; } /* Fim da contagem */
 }
