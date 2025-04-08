@@ -1,17 +1,27 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #555;
 }
 
 .sitemap {
-    list-style-type: none;
-    padding-left: 0;
+    list-style-type: none; /* Remove as marcadores */
+    padding-left: 0; /* Remove o padding  */
 }
 
 .sitemap li {
-    text-indent: 20px;
+    text-indent: 20px; 
+    margin-bottom: 5px; /* Espaçamento  */
 }
 
-.sitemap ul {
-    list-style-type: none;
-    padding-left: 20px;
+.sitemap li ul {
+    padding-left: 20px; /*  recuo para sublistas */
+    text-indent: 0; 
 }
