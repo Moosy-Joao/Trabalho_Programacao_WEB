@@ -2,26 +2,54 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 20px;
-    background-color: #f9f9f9;
+    background-color: #f0f8ff; /* Fundo */
     color: #333;
 }
 
 h1 {
     text-align: center;
-    color: #555;
+    color: #444;
+    font-size: 2.5rem; /* título */
+    margin-bottom: 20px;
+    text-transform: uppercase; /* texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    border-bottom: 2px solid #ddd; /* Linha abaixo do título */
+    padding-bottom: 10px;
 }
 
 .sitemap {
-    list-style-type: none; /* Remove as marcadores */
-    padding-left: 0; /* Remove o padding  */
+    list-style-type: none; /* Remove os marcadores */
+    padding-left: 0; /* Remove o padding */
+    margin: 0 auto; /* Centraliza a lista */
+    max-width: 600px; /* largura máxima */
+    background: #fff; /* Fundo branco */
+    border: 1px solid #ddd; /* Borda cinza */
+    border-radius: 8px; /* Arredonda os cantos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    padding: 20px; /* Espaçamento interno */
 }
 
 .sitemap li {
-    text-indent: 20px; 
-    margin-bottom: 5px; /* Espaçamento  */
+    text-indent: 20px;
+    margin-bottom: 10px; /* Espaçamento entre itens */
+    font-size: 1.1rem; /* tamanho do texto */
+    color: #555; /* Cor mais suave */
 }
 
 .sitemap li ul {
-    padding-left: 20px; /*  recuo para sublistas */
-    text-indent: 0; 
+    padding-left: 20px; /* Recuo  sublista */
+    text-indent: 0;
+}
+
+.sitemap li:hover {
+    color: #007BFF; /* efeito mouse */
+    cursor: pointer; /* Mostra o cursor de link */
+}
+
+.sitemap li ul li {
+    color: #666; /* Cor mais clara para subitens */
+}
+
+.sitemap li ul li:hover {
+    color: #0056b3; /* efeito mouse */
 }
