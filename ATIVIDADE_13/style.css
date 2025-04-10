@@ -1,8 +1,7 @@
-
 /* Fundo da página com a imagem fornecida */
 body {
-  font-family: Arial, sans-serif;
-  background-image: url('Imagens/tecno.jpg');
+  font-family: cascadia-code, sans-serif;
+  background-image: url('Imagens/Backg-ex13.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,74 +12,63 @@ body {
   margin: 0;
 }
 
-/* Contêiner geral com largura ajustada */
-.container {
-  background-color: rgba(9, 175, 204, 0.8); /* Fundo branco semi-transparente */
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 60%; /* Diminuindo a largura do formulário */
-  max-width: 900px; /* Largura máxima */
-  box-sizing: border-box;
-  overflow: auto;
-}
-
 /* Título */
 h1 {
-  background-color: #004b95;
   text-align: center;
-  color: #000000;
+  color: #ffe603;
   font-size: 2.5rem;
   margin-bottom: 30px;
 }
 
-/* Estilo das promoções */
+/* Contêiner geral das promoções */
+.label-produtos {
+  display: flex;
+  gap: 20px; /* Espaçamento entre os produtos */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+  justify-content: center; /* Centraliza os produtos */
+}
+
+/* Estilo de cada promoção */
 .promocao {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 20px;
-}
-
-.promocao img {
-  max-width: 250px; /* Diminuindo o tamanho das imagens */
-  height: auto;
+  flex-direction: column;
+  align-items: center;
+  width: 30%; /* Cada promoção ocupa 30% da largura */
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 16px;
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
+/* Estilo das imagens */
+.promocao img {
+  width: 125px;
+  height: 128px;
+  margin-bottom: 10px;
+}
+
+/* Estilo do texto das promoções */
 .info-promocao {
-  flex: 1;
-  padding-left: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
 }
 
-.info-promocao h2 {
-  font-size: 1.8rem;
-  color: #000000;
-  margin: 0;
-}
-
-.info-promocao p {
-  color: #fdfdfd;
-  font-size: 1.1rem;
-  line-height: 1.5;
-}
-
-/* Estilo para os preços */
-.preco {
-  margin-top: 10px;
-  font-size: 1.4rem;
-}
-
+/* Estilo do preço original */
 .preco del {
-  color: #ff0000;
+  color: #333;
   font-size: 1.2rem;
   text-decoration: line-through;
 }
 
+/* Estilo do preço com desconto */
 .preco-desconto {
-  color: #09ff00;  /* Usando uma cor mais quente para o preço com desconto */
+  color: #ffe609;
   font-size: 1.6rem;
   font-weight: bold;
+  margin-top: 5px;
 }
