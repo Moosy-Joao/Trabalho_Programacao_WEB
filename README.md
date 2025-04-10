@@ -19,11 +19,11 @@ Este projeto foi desenvolvido com o objetivo de aplicar os conceitos de desenvol
 
 2. Abra o arquivo index.html em um navegador.
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 HTML: Para a estruturação do conteúdo.
 CSS: Para estilização e layout responsivo.
 
-Autores
+## Autores
 
 João Pedro Pereira Marques, Matheus Alende Pires, João Antonio de Souza  - Criadores e responsáveis pelo desenvolvimento deste projeto.
