@@ -17,7 +17,6 @@ Este projeto foi desenvolvido com o objetivo de aplicar os conceitos de desenvol
    ```bash
    git clone https://github.com/Moosy-Joao/Trabalho_Programacao_WEB.git
 
-2. Abra o arquivo index.html em um navegador.
 
 ## Tecnologias Utilizadas
 
