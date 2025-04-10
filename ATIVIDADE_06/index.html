@@ -1,35 +1,30 @@
-<!-- 6 - Página de FAQ:
-● Tag HTML: <details>
-● Propriedade CSS: transition
-Construa uma página de perguntas frequentes com uma lista de perguntas e
-respostas utilizando a tag <details>, onde cada pergunta pode ser expandida ou
-retraída para revelar sua resposta. Utilize a propriedade transition para animar a
-transição entre os estados expandido e retraído. 
-AUTOR: João Antonio -->
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Perguntas Frequentes</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Perguntas Frequentes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Perguntas Frequentes</h1>
-    <section>
-        <details>
-            <summary>O que é HTML?</summary>
-            <p>HTML é uma linguagem de marcação utilizada para estruturar o conteúdo da web.</p>
-        </details>
-        <details>
-            <summary>O que é CSS?</summary>
-            <p>CSS é uma linguagem de estilo utilizada para definir a aparência e o layout de páginas web.</p>
-        </details>
-        <details>
-            <summary>O que é JavaScript?</summary>
-            <p>JavaScript é uma linguagem de programação utilizada para adicionar interatividade às páginas web.</p>
-        </details>
-    </section>
+    <main class="container" role="main">
+        <header>
+            <h1>Perguntas Frequentes</h1>
+        </header>
+        <section class="faq" aria-label="Lista de perguntas frequentes">
+            <details>
+                <summary>O que é HTML?</summary>
+                <p>HTML (HyperText Markup Language) é a linguagem de marcação padrão usada para criar páginas da web.</p>
+            </details>
+            <details>
+                <summary>O que é CSS?</summary>
+                <p>CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para controlar o layout e o design das páginas web.</p>
+            </details>
+            <details>
+                <summary>O que é JavaScript?</summary>
+                <p>JavaScript é uma linguagem de programação voltada para o desenvolvimento de funcionalidades dinâmicas e interativas em sites.</p>
+            </details>
+        </section>
+    </main>
 </body>
 </html>

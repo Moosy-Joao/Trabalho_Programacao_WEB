@@ -1,36 +1,65 @@
-
 body {
-    display: flex;
-    justify-content: center; /* não ta funfanfo */
-    align-items: center;  /* não ta funfanfo */
-    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-image: url("Imagens/Fundo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #333;
 }
 
+/* Contêiner principal */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
 
-section {
-    width: 50%; 
+/* Título */
+h1 {
     text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #2c3e50;
 }
 
+/* Estilo da seção FAQ */
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilo dos detalhes */
 details {
-    margin-bottom: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 10px;
-    transition: all 0.3s ease-in-out;
+    padding: 15px;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
 }
 
+/* Estilo do sumário */
 summary {
     font-weight: bold;
-    font-size: 50px;
     cursor: pointer;
+    outline: none;
 }
 
+/* Remove o marcador padrão do sumário */
+summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Estilo quando o detalhe está aberto */
 details[open] {
-    background-color: #f9f9f9;
-    border-color: #007BFF;
+    background-color: #e9ecef;
 }
 
-details[open] summary {
-    color: #007BFF;
+/* Estilo do parágrafo */
+p {
+    margin-top: 10px;
 }
