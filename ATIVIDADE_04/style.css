@@ -40,10 +40,11 @@ li {
 }
 
 ul {
-  padding: 20px; 
-  background-color: #fff; 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-  margin-bottom: 20px; 
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  list-style: square inside;
 }
 
 .data {

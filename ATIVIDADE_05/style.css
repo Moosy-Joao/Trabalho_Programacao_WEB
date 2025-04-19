@@ -1,43 +1,42 @@
 .menu-lateral {
-  position: fixed; /* Fixa o menu no canto esquerdo da tela */
+  position: fixed;
   top: 0;
   left: 0;
-  width: 200px; /* Largura do menu */
-  height: 100%; /* Ocupa toda a altura da tela */
-  background-color: rgba(0, 0, 0, 0.8); /* Fundo preto com transparência */
+  width: 200px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Sombra para o menu */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .menu-lateral ul {
-  list-style: none; /* Remove os marcadores da lista */
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .menu-lateral ul li {
-  margin-bottom: 15px; /* Espaçamento entre os links */
+  margin-bottom: 15px;
 }
 
 .menu-lateral ul li a {
-  text-decoration: none; /* Remove o sublinhado dos links */
-  color: white; /* Cor do texto dos links */
-  font-size: 1.2rem; /* Tamanho da fonte */
-  display: block; /* Faz o link ocupar toda a largura do menu */
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  display: block;
   padding: 10px;
-  border-radius: 4px; /* Bordas arredondadas nos links */
-  transition: background-color 0.3s; /* Animação suave ao passar o mouse */
+  border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
 .menu-lateral ul li a:hover {
-  background-color: #555; /* Cor de fundo ao passar o mouse */
+  background-color: #555;
 }
 
-/* Definindo o fundo da página com a imagem */
 body {
     font-family: cascadia code, sans-serif;
     background-image: url('Imagens/backg-ex5.jpg');
-    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -47,7 +46,6 @@ body {
     margin: 0;
   }
   
-  /* Contêiner do formulário */
   .container {
     background-color: #fff;
     padding: 50px;
@@ -57,14 +55,12 @@ body {
     max-width: 500px;
   }
   
-  /* Título do formulário */
   h1 {
     text-align: center;
     color: #333;
     font-size: 2rem;
   }
   
-  /* Estilo dos labels */
   label {
     display: block;
     margin-bottom: 12px;
@@ -75,7 +71,6 @@ body {
     box-sizing: border-box;
   }
 
-  /* Estilo dos campos de entrada */
   input, textarea {
     width: 100%;
     padding: 10px;
@@ -85,12 +80,11 @@ body {
     font-size: 16px;
   }
   
-  /* Ajustando a área de texto */
   textarea {
     resize: vertical;
   }
   
-  /* Estilo do botão */
+
   button {
     width: 100%;
     padding: 16px;
