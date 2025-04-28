@@ -1,40 +1,8 @@
-.menu-lateral {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-}
-
-.menu-lateral ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu-lateral ul li {
-  margin-bottom: 15px;
-}
-
-.menu-lateral ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.2rem;
-  display: block;
-  padding: 10px;
-  border-radius: 4px;
-  transition: background-color 0.3s;
-}
-
-.menu-lateral ul li a:hover {
-  background-color: #555;
+*{
+  font-family: cascadia code, sans-serif;
 }
 
 body {
-    font-family: cascadia code, sans-serif;
     background-image: url('Imagens/backg-ex5.jpg');
     background-size: cover; 
     background-position: center;
